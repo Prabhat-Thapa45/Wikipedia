@@ -16,7 +16,6 @@ def get_wiki_info(value):
         except ValueError as err:
             print(wikipedia.summary(value))
 
-
 while True:
     search_value = input("Enter name for search:\n")
     get_wiki_info(search_value)
